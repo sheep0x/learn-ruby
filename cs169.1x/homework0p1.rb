@@ -17,7 +17,7 @@ end
 #   executions, although you can use them in expressions if you are careful.
 #   Basically, 'foo and bar' is just another way of saying 'bar if foo'.
 #   For example:
-#       friends.include? 'Suzuka' and print 'Mom, I got a new (girl)friend!'
+#       friends.include? 'Suzuka' and puts 'Mom, I got a new (girl)friend!'
 #   You'll be surprised if you try something like 'a = b and c': Ruby will
 #   evaluate 'a=b' first, and, if a is true-ish, return c happily.
 #
